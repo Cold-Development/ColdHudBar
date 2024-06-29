@@ -13,3 +13,5 @@ messages:
 ```
 
 - This plugin supports both hex colors and default Minecraft symbol "&". (they can't be used together as you can see in the above config)
+
+https://imgur.com/ZYYjvJL.png
