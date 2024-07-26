@@ -1,9 +1,11 @@
-name: HUDActionBar
+name: ColdHudBar
 version: 1.0
 api-version: 1.20
 author: padrewin
-main: org.padrewin.hudactionbar.HUDActionBar
+main: org.padrewin.coldhudbar.ColdHudBar
+depend: [PlaceholderAPI]
 commands:
   hudactionbar:
     description: Reloads the configuration of HUDActionBar
-    usage: /hudactionbar reload
+    permission: coldhud
+    aliases: [coldhud, hudbar, coldhudbar]
