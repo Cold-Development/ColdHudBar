@@ -13,7 +13,7 @@ messages:
   reloadSuccess: "&fPlugin &areloaded&f."
 ```
 
-- This plugin supports both hex colors and default Minecraft symbol "&". (they can't be used together as you can see in the above config)
+- This plugin now supports full hex color codes. No restrictions.
 
 https://imgur.com/ZYYjvJL.png
 https://prnt.sc/vLDLlmpBddnk.png
