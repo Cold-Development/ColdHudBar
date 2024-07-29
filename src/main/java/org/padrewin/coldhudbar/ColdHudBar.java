@@ -30,6 +30,19 @@ public class ColdHudBar extends JavaPlugin implements Listener {
 
     @Override
     public void onEnable() {
+
+        String name = getDescription().getName();
+        getLogger().info("");
+        getLogger().info("  ____ ___  _     ____  ");
+        getLogger().info(" / ___/ _ \\| |   |  _ \\ ");
+        getLogger().info("| |  | | | | |   | | | |");
+        getLogger().info("| |__| |_| | |___| |_| |");
+        getLogger().info(" \\____\\___/|_____|____/");
+        getLogger().info("    " + name + " v" + getDescription().getVersion());
+        getLogger().info("    Author(s): " + (String)getDescription().getAuthors().get(0));
+        getLogger().info("    (c) Cold Development. All rights reserved.");
+        getLogger().info("");
+
         saveDefaultConfig(); // Salvează config.yml dacă nu există deja
 
         // Încarcă configurația
