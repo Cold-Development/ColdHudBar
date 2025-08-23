@@ -9,7 +9,7 @@
   * `pt_PT`
   * `ro_RO`
   * `zh_CN`
-  * `customize your own
+  * `customize your own`
 
 ![](https://imgur.com/pwnH3FJ.png)
 ![](https://imgur.com/WYEZRK8.png)
