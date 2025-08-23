@@ -4,11 +4,11 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.padrewin</groupId>
-    <artifactId>ColdBroadcast</artifactId>
+    <artifactId>HudActionbar</artifactId>
     <version>1.4</version>
     <packaging>jar</packaging>
 
-    <name>ColdBroadcast</name>
+    <name>HudActionbar</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,7 +37,7 @@
                                 <!-- Relocating dev.padrewin.coldplugin to avoid conflicts -->
                                 <relocation>
                                     <pattern>dev.padrewin.colddev</pattern>
-                                    <shadedPattern>dev.padrewin.coldbroadcast.libs.coldplugin</shadedPattern>
+                                    <shadedPattern>dev.padrewin.hudactionbar.libs.coldplugin</shadedPattern>
                                 </relocation>
                             </relocations>
                         </configuration>

@@ -1,40 +1,40 @@
-name: ColdBroadcast
+name: HudActionbar
 version: '@version@'
-main: dev.padrewin.coldbroadcast.ColdBroadcast
+main: dev.padrewin.hudactionbar.HudActionbar
 api-version: '1.20'
 authors: [ padrewin ]
-website: 'https://github.com/Cold-Development/ColdBroadcast'
+website: 'https://github.com/Cold-Development/HudActionbar'
 softdepend:
   - PlaceholderAPI
 
 commands:
-  coldbroadcast:
-    description: Main command for ColdBroadcast plugin
-    aliases: [cb, coldbroadcaster, coldbroadcast]
-    permission: "coldbroadcast.version"
+  hudactionbar:
+    description: Main command for HudActionbar plugin
+    aliases: [cb, hudactionbar, hac, hud]
+    permission: "hudactionbar.version"
   reload:
-    description: Reloads the ColdBroadcast configuration
-    permission: "coldbroadcast.reload"
+    description: Reloads the HudActionbar configuration
+    permission: "hudactionbar.reload"
   help:
-    description: Displays help for ColdBroadcast commands
-    permission: "coldbroadcast.help"
+    description: Displays help for HudActionbar commands
+    permission: "hudactionbar.help"
 
 permissions:
-  coldbroadcast.*:
-    description: Root permission for ColdBroadcast plugin
+  hudactionbar.*:
+    description: Root permission for HudActionbar plugin
     children:
-      coldbroadcast.reload: true
-      coldbroadcast.help: true
-      coldbroadcast.version: true
+      hudactionbar.reload: true
+      hudactionbar.help: true
+      hudactionbar.version: true
 
-  coldbroadcast.version:
+  hudactionbar.version:
     description: Grants access to view the plugin version
     default: true
 
-  coldbroadcast.reload:
+  hudactionbar.reload:
     description: Grants access to reload command
     default: op
 
-  coldbroadcast.help:
+  hudactionbar.help:
     description: Grants access to help command
     default: true
