@@ -20,4 +20,4 @@ command-reload-usage: '&7用法： &c/hudactionbar reload'
 command-reload-success: '&7配置和语言文件已重新加载。'
 
 # Version Command
-command-version-description: '&8 - &c/hudactionbar version &7- 显示 ColdTracker 的版本信息'
+command-version-description: '&8 - &c/hudactionbar version &7- 显示 HudActionbar 的版本信息'

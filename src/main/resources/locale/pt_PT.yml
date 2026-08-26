@@ -20,4 +20,4 @@ command-reload-usage: '&7Uso: &c/hudactionbar reload'
 command-reload-success: '&7Os arquivos de configuração e idioma foram recarregados.'
 
 # Version Command
-command-version-description: '&8 - &c/hudactionbar version &7- Exibe as informações de versão do ColdTracker'
+command-version-description: '&8 - &c/hudactionbar version &7- Exibe as informações de versão do HudActionbar'

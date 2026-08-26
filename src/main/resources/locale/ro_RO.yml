@@ -20,4 +20,4 @@ command-reload-usage: '&7Utilizare: &c/hudactionbar reload'
 command-reload-success: '&7Fișierele de configurare și localizare au fost reîncărcate.'
 
 # Version Command
-command-version-description: '&8 - &c/hudactionbar version &7- Afișează informațiile despre versiunea ColdTracker'
+command-version-description: '&8 - &c/hudactionbar version &7- Afișează informațiile despre versiunea HudActionbar'
